@@ -8,9 +8,13 @@ Details
 
 An AppDotNetPHP-based stream consumer with a python repost script
 
+```
+$app->createStream(array('post')); // returns the stream URL to use as $s
+```
+
 ADN Global stream is taken in with the following filter applied, limiting posts to those by (a)po
 
-[Filter](http://developers.app.net/docs/resources/filter/):
+### [Filter](http://developers.app.net/docs/resources/filter/):
 
 ```
 {
